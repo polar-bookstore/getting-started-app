@@ -7,6 +7,6 @@ on:
 
 jobs:
   call-workflow:
-    uses: polar-bookstore/pipeline-templates/.github/workflows/docker-image.yml@main
+    uses: polar-bookstore/pipeline-templates/.github/workflows/docker-image.yml@v1
     with:
       team: 'klingon-empire'
